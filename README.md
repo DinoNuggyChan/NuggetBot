@@ -86,7 +86,7 @@ After you in intall Packages go inside ``config.json`` there will be at the top 
 
 ## How i Host .Nugget Bot~ ♡
 
-i use Heroku [Heroku](https://heroku.com)
+i use a [Galaxygate VPS](https://galaxygate.net/hosting/vps/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/Oni-Chan-inc/NuggetBot.svg?style=for-the-badge
 [contributors-url]: https://github.com/Oni-Chan-inc/NuggetBot/graphs/contributors
