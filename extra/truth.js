@@ -1,0 +1,88 @@
+module.exports = {
+    name: '.',
+    aliases: ['t'],
+    description: ".",
+    async execute(client, message, args, command, Discord) {
+        const messages = [
+            `If you could be invisible, what is the first thing you would do?`,
+            `What is a secret you kept from your parents?`,
+            `What is the most embarrassing music you listen to?`,
+            `What is one thing you wish you could change about yourself?`,
+            `Who is your secret crush?`,
+            `Who is the last person you creeped on social media?`,
+            `When was the last time you wet the bed?`,
+            `If a genie granted you three wishes, what would you ask for?`,
+            `What is your biggest regret?`,
+            `Where is the weirdest place you've ever gone to the bathroom?`,
+            `What is the most food you've ever eaten in a single sitting?`,
+            `Which player would survive a zombie apocalypse and which would be the first to go?`,
+            `Reveal all the details of your first kiss.`,
+            `What excuse have you used before to get out plans with a friend?`,
+            `What's the longest you've ever slept?`,
+            `Read the last thing you sent your best friend or significant other out loud.`,
+            `What's your biggest pet peeve?`,
+            `When was the last time you lied?`,
+            `What five things would you bring to a desert island?`,
+            `What's the most embarrassing thing you ever did on a date?`,
+            `What is the craziest pickup line you've ever used?`,
+            `What animal do you think you most look like?`,
+            `How many selfies do you take a day?`,
+            `What is one thing you would stand in line for an hour for?`,
+            `When was the last time you cried?`,
+            `What's the longest time you've ever gone without showering?`,
+            `What's the most embarrassing top-played song on your phone?`,
+            `What was your favorite childhood show?`,
+            `If you could be a fictional character for a day, who would you choose?`,
+            `What's your biggest fear?`,
+            `What's one silly thing you can't live without?`,
+            `What is the weirdest trend you've ever participated in?`,
+            `If you could only listen to one song for the rest of your life, what would you choose?`,
+            `What person do you text the most?`,
+            `Have you ever been fired from a job?`,
+            `What is an instant deal breaker in a potential love interest?`,
+            `If you could only eat one thing for the rest of your life, what would you choose?`,
+            `What is the biggest lie you ever told your parents?`,
+            `What's the worst physical pain you've ever experienced?`,
+            `Which player knows you the best?`,
+            `What's your favorite part of your body?`,
+            `What's the weirdest thing you've ever eaten?`,
+            `Have you ever gone skinny dipping?`,
+            `Tell us about the worst date you've ever been on?`,
+            `Who is your celebrity crush?`,
+            `What's the strangest dream you've ever had?`,
+            `What are the top three things you look for in a boyfriend/girlfriend?`,
+            `What is your worst habit?`,
+            `How many stuffed animals do you own?`,
+            `What is your biggest insecurity?`,
+            'When was the last time you lied?',
+            'When was the last time you cried?',
+            'What\'s your biggest fear?',
+            'What\'s your biggest fantasy?',
+            'Do you have any fetishes?',
+            'What\'s something you\'re glad your mum doesn\'t know about you?',
+            'Have you ever cheated on someone?',
+            'What\'s the worst thing you\'ve ever done?',
+            'What\'s a secret you\'ve never told anyone?',
+            'Do you have a hidden talent?',
+            'Who was your first celebrity crush?',
+            'What are your thoughts on polyamory?',
+            'What\'s the worst intimate experience you\'ve ever had?',
+            'What\'s the best intimate experience you\'ve ever had?',
+            'Have you ever cheated in an exam?',
+            'What\'s the most embarrassing thing you\'ve ever done?',
+            'What\'s the biggest mistake you\'ve ever made?',
+            'What\'s your worst habit?',
+            'What\'s the strangest dream you\'ve had?',
+        ];
+
+        const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+        const user1 = message.author;
+        
+        const embed = new Discord.MessageEmbed()
+            .setColor('#0000FF')
+            .setTitle(`${user1.username}`)
+            .setDescription( `${randomMessage}`)
+
+            return message.channel.send(embed);
+    }
+}
