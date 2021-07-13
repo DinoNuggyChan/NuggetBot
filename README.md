@@ -48,38 +48,6 @@ main Package
 install all at once
 ```npm i```
 
-List of all Packages
-```
-npm i bcrypt
-npm i better-sqlite3
-npm i booru
-npm i common-tags
-npm i discord-nsfw
-npm i discord-player
-npm i distube
-npm i enmap
-npm i ffmpeg-static
-npm i formidable
-npm i fs-nextra
-npm i http
-npm i https
-npm i i18n
-npm i jsdom
-npm i merge-options
-npm i node-fetch
-npm i node-pre-gyp
-npm i opusscript
-npm i parse-ms
-npm i path
-npm i q
-npm i quick.db
-npm i random-puppy
-npm i reverbnation-scraper
-npm i superagent
-npm i tools
-npm i xml2js
-```
-
 ## Usage
 After you in intall Packages go inside ``config.json`` there will be at the top of the file called ``"token": "",`` put your token in the ``""`` example ``"token": "your token",``
 
